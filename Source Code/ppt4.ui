@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PPT4</class>
+ <widget class="QWidget" name="PPT4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>250</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>继续</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>740</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(249, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>特征值介绍
+
+
+学术能力值：反映现实中的GPA，用来表征天才小白的学术能力，
+如果学术能力值过低则面临被清除出唐班的风险（唐班GPA最低为3.3）
+
+
+人缘值：反映现实中天才小白与周围人的交友状态，
+如果此值高于某个阈值，则可能解锁对象一名。
+
+
+健康值：反映现实中天才小白的身体健康状态，
+如果此值过低则可能引发一系列健康问题。
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
